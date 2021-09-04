@@ -1,0 +1,116 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+a, button {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#insertar, #consultar {
+    display: none;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    background: dodgerblue;
+    padding: 15px 0;
+    margin-bottom: 0;
+}
+
+.menu ul li a{
+    font-weight: 700;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.menu ul li a:hover{
+    color: #eee;
+}
+
+.panel {
+    background: #eee;
+    color: #333;
+    padding: 20px;
+}
+
+.panel #mensaje-inicial {
+    text-align: center;
+    margin: 0;
+}
+
+.titulo {
+    margin: 15px auto;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    width: 300px;
+}
+
+.submit {
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 322px;
+    margin-top: 10px;
+}
+
+.respuestas {
+    background-color: lightslategray;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    font-weight: 700;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+ 
+table,
+th,
+td {
+    border: 1px solid black;
+}
+ 
+th,
+td {
+    padding: 5px;
+}
+
+.completada {
+    text-decoration: line-through;
+}

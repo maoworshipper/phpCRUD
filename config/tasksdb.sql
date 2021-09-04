@@ -1,0 +1,6 @@
+"CREATE TABLE tasks(
+    id INT(12) AUTO_INCREMENT PRIMARY KEY,
+    tarea VARCHAR(100) NOT NULL,
+    fecha DATETIME NOT NULL,
+    estado INT(3)
+)";
